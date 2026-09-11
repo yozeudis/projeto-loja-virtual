@@ -58,6 +58,21 @@ enquanto (opcao_menu_principal != 0)
     
     escreva("MENU PRINCIPAL
 
+      escreva("Pressione ENTER para voltar ao menu...")
+   leia(tecla_pausa)
+   pare
+
+
+   caso 0:
+       limpa()
+       escreva("Encerrando seleção de itens e indo para o pagamento...")
+       pare
+   caso contrario:
+       limpa()
+       escreva("Opção inválida! Escolha uma das opções o menu.")
+       escreva("Pressione ENTER para continuar...")
+
+
 
 
     
