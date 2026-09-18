@@ -72,6 +72,25 @@ enquanto (opcao_menu_principal != 0)
        escreva("Opção inválida! Escolha uma das opções o menu.")
        escreva("Pressione ENTER para continuar...")
 
+       
+}
+senao {
+escreva("
+Produto inválido!
+")
+}
+escreva("
+Pressione ENTER para voltar ao menu...")
+leia(tecla_pausa)
+pare
+//
+// R READ (Visualizar o Carrinho)
+//
+caso 2:
+limpa()
+escreva ("- MEU CARRINHO DE COMPRAS
+")
+
 
 
 
