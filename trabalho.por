@@ -122,7 +122,23 @@ Item adicionado ao carrinho com sucesso!
               escreva("Quantidada inválida ou estoque insuficiente!")
 
 
- }
+  }
+   senao {
+       escreva("Produro invalido1! ")
+
+
+   }
+       escreva("Pressione ENTER para voltar ao menu...")
+         leia(tecla_pausa)
+       pare
+
+
+       // ================================================
+       // R -READ (Visualizar o Carrinho)
+       // ================================================
+       caso 2:
+          limpa()
+          escreva("--- MEU CARRINHO DE COMPRAS ---")
 
   }
 }
