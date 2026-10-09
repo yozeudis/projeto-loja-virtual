@@ -31,10 +31,10 @@ programa {
       limpa()
 
         escreva("=== BEM VINDO À NOSSA LOJA VIRTUAL ===")
-
+        
         escreva("------------------------------------------")
 
-        escreva("MENU PRINCIPAL
+        escreva("MENU PRINCIPAL")
 
         escreva("1. Ver Produtos e Adicionar ao Carrinho (CREATE)")
 
@@ -150,8 +150,7 @@ programa {
         escreva("Pressione ENTER para voltar ao menu...")
         leia(tecla_pausa)
         pare
-        //
-        U UPDATE (Atualizar Quantidade no Carrinho)
+        //U UPDATE (Atualizar Quantidade no Carrinho)
         //
         //
         caso 3:
@@ -225,9 +224,9 @@ programa {
                             escreva("Pressione ENTER para voltar ao menu...")
                             leia(tecla_pausa)
                             pare 
-                        // ======================================================
-                        // D - DELETE (Remover Item do Carrinho)
-                        // ======================================================
+    // ======================================================
+    // D - DELETE (Remover Item do Carrinho)
+    // ======================================================
                         caso 4:
 
                 limpa()
